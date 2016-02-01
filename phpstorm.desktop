@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=PhpStorm
+Exec=sh -c "docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.WebIde100:/home/developer/.WebIde100 -v ~/Documents:/home/developer/Documents jacobmarshall/phpstorm:latest"
+Icon=phpstorm
+Terminal=false
+Type=Application
+StartupNotify=true
